@@ -1,0 +1,124 @@
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <h3><img src="asia.jpg" class="img-fluid"/><span>Vaibhav Tour</span></h3>
+    </div>
+    <ul class="list-unstyled components">
+    <li  class="active">
+            <a href="page.php" class="dashboard"><i class="material-icons">dashboard</i><span>Dashboard</span></a>
+        </li>
+
+      <div class="small-screen navbar-display">
+        <li class="dropdown d-lg-none d-md-block d-xl-none d-sm-block">
+            <a href="#homeSubmenu0" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+            <i class="material-icons">notifications</i><span> 1 notification</span></a>
+            <ul class="collapse list-unstyled menu" id="homeSubmenu0">
+                            <li>
+                            <a href="#">You have 5 new messages</a>
+                            </li>
+            </ul>
+        </li>
+        
+        <li  class="d-lg-none d-md-block d-xl-none d-sm-block">
+            <a href="#"><i class="material-icons">apps</i><span>apps</span></a>
+        </li>
+        
+         <li  class="d-lg-none d-md-block d-xl-none d-sm-block">
+            <a href="#"><i class="material-icons">person</i><span>user</span></a>
+        </li>
+        
+        <li  class="d-lg-none d-md-block d-xl-none d-sm-block">
+            <a href="#"><i class="material-icons">settings</i><span>setting</span></a>
+        </li>
+        </div>
+    
+        <li class="dropdown">
+            <a href="new_admin.php" >
+            <i class="material-icons">apps</i><span>New Admin</span></a>
+            
+        </li>
+        
+        <li class="dropdown">
+            <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+            <i class="material-icons">aspect_ratio</i><span>Packages</span></a>
+            <ul class="collapse list-unstyled menu" id="homeSubmenu2">
+                <li>
+                    <a href="packages.php">Add Packages</a>
+                </li>
+                <li>
+                    <a href="package-view.php">View Packages</a>
+                </li>
+                <li>
+                    <a href="package-all-report.php">Report Packages</a>
+                </li>
+            </ul>
+        </li>
+
+      <li class="dropdown">
+        <a href="#homeSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+            <i class="material-icons">equalizer</i><span>Blog</span></a>
+        <ul class="collapse list-unstyled menu" id="homeSubmenu4">
+            <li>
+                <a href="blog.php">Add Blog</a>
+            </li>
+            <li>
+                <a href="blog-view.php">View Blog</a>
+            </li>
+            <li>
+                <a href="blog-all-report.php">Report Blog</a>
+            </li>
+        </ul>
+    </li>
+       <li class="dropdown">
+            <a href="inquery.php" >
+            <i class="material-icons">border_color</i><span>Inquiry</span></a>
+        </li>
+         
+       <li class="dropdown">
+            <a href="Histry.php" >
+            <i class="material-icons">grid_on</i><span>History</span></a>
+        </li>
+       
+       
+         <li class="dropdown">
+            <a href="setting.php" >
+            <i class="material-icons">settings</i><span>Settings</span></a>
+        </li>
+
+        <li>
+          <a href="logout.php" data-toggle="modal" data-target="#exampleModal">
+                <i class="material-icons pt-1">logout</i><span> Log-Out</span>
+          </a>
+
+        </li>
+       
+       
+    </ul>
+
+   
+</nav>
+
+<!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready To Log-Out</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="logout.php" method="post">
+            <button class="btn btn-primary" name="logout">Log-Out</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
